@@ -1,5 +1,3 @@
-import React from 'react'
-
 // stacks of copied and printed documents
 const DocumentGraphic = ({ className }: { className?: string }) => (
   <img

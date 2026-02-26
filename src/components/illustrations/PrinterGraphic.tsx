@@ -1,5 +1,3 @@
-import React from 'react'
-
 // xerox and document copying machine
 const PrinterGraphic = ({ className }: { className?: string }) => (
   <img
