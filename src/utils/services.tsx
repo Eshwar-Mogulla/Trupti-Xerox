@@ -235,7 +235,7 @@ export const services: Service[] = [
     fullDesc:
       'Assistance with E-Shram card registration for unorganized workers. Provides social security benefits and accident insurance.',
     icon: <FiUserCheck />,
-    image: 'E-shram-Card.webp',
+    image: '/E-shram-Card.webp',
     processingTime: '2-3 days',
     charges: ['₹50-100 service fee'],
     documents: ['Aadhar card', 'Bank account details', 'Mobile number'],
@@ -257,7 +257,7 @@ export const services: Service[] = [
     fullDesc:
       'Complete assistance with Ayushman Bharat - PM-JAY scheme registration. Provides free health insurance coverage up to ₹5 lakh.',
     icon: <FiHeart />,
-    image: 'ayushman-card.jpg',
+    image: '/ayushman-card.jpg',
     processingTime: '3-5 business days',
     charges: ['₹50-100 service fee'],
     documents: ['Aadhar card', 'Ration card or address proof', 'Family income certificate'],
