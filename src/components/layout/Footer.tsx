@@ -49,11 +49,20 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="mb-4">
-              <img
-                src="/logo.jpeg"
-                alt="Trupti Enterprises Logo"
-                className="h-16 w-auto object-contain rounded-lg"
-              />
+              <Link
+                to="/"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNavClick(null);
+                }}
+                className="inline-block"
+              >
+                <img
+                  src="/logo.jpeg"
+                  alt="Trupti Enterprises Logo"
+                  className="h-16 w-auto object-contain rounded-lg hover:scale-105 transition"
+                />
+              </Link>
             </div>
             <h3 className="text-2xl font-bold text-primary mb-2 hidden">TRUPTI</h3>
             <p className="text-gray-300 text-sm mb-4 mt-4">
@@ -138,8 +147,8 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-primary font-semibold mb-1">Address</p>
-                <p>SHOP NO 12, SIDDHIVINAYAK PLAZA, Diva Shil Rd, behind GOPAL DAIRY, Samdhan Nagar, Prashant Nagar, Sadguru Nagar, Diva, Thane, Maharashtra 400612</p>
-                <p>Your City, PIN Code</p>
+                <p>Shop No 12, Siddhivinayak Plaza, Diva Shil Rd, Behind Gopal Dairy, Samdhan Nagar, Prashant Nagar, Sadguru Nagar, Diva</p>
+                <p>Thane, Maharashtra 400612</p>
               </div>
             </div>
           </div>
@@ -148,9 +157,14 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-white/10 pt-8 mt-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <p className="text-gray-400 text-sm">
-              &copy; {currentYear} TRUPTI ENTERPRISES. All rights reserved.
-            </p>
+            <div className="text-gray-400 text-sm flex flex-col items-center md:items-start space-y-1">
+              <p>
+                &copy; {currentYear} TRUPTI ENTERPRISES. All rights reserved.
+              </p>
+              <p>
+                Developed by <span className="text-primary font-medium tracking-wide">GP Tech</span>
+              </p>
+            </div>
             <div className="flex space-x-6 mt-4 md:mt-0 text-sm">
               <a href="#" className="text-gray-400 hover:text-primary transition">
                 Privacy Policy
