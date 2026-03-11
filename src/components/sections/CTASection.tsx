@@ -8,21 +8,21 @@ const CTASection = () => {
       icon: <FiPhone />,
       label: 'Call Now',
       description: 'Get instant answers to your questions',
-      link: 'tel:+919999999999',
+      link: 'tel:+918691917227',
       color: 'bg-accent',
     },
     {
       icon: <FiMapPin />,
       label: 'Get Directions',
       description: 'Visit our center in your area',
-      link: '#',
+      link: 'https://www.google.com/maps/place/TRUPTI+ENTERPRISES/@19.1863664,73.0394328,712m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3be7bfa98d4a59c7:0x9c4b14930000000!8m2!3d19.1863664!4d73.0420077!16s%2Fg%2F11rdx438p8?entry=ttu&g_ep=EgoyMDI2MDMwNC4xIKXMDSoASAFQAw%3D%3D',
       color: 'bg-blue-500',
     },
     {
       icon: <FaWhatsapp />,
       label: 'WhatsApp',
       description: 'Message us for quick assistance',
-      link: 'https://wa.me/919999999999',
+      link: 'https://wa.me/918691917227',
       color: 'bg-green-500',
     },
   ]
@@ -82,14 +82,14 @@ const CTASection = () => {
             </div>
             <div>
               <p className="text-gray-400 mb-2">Phone</p>
-              <a href="tel:+919999999999" className="text-primary font-bold hover:text-yellow-400 transition text-lg">
-                +91 9999 999 999
+              <a href="tel:+918691917227" className="text-primary font-bold hover:text-yellow-400 transition text-lg">
+                +91 86919 17227
               </a>
             </div>
             <div>
               <p className="text-gray-400 mb-2">Location</p>
-              <p className="text-white font-bold">City Center, Main Street</p>
-              <p className="text-gray-300">Your City, PIN Code</p>
+              <p className="text-white font-bold">CSHOP NO 12, SIDDHIVINAYAK PLAZA, Diva Shil Rd, behind GOPAL DAIRY, Samdhan Nagar, Prashant Nagar, Sadguru Nagar, Diva</p>
+              <p className="text-gray-300">Thane, Maharashtra 400612</p>
             </div>
           </div>
         </motion.div>

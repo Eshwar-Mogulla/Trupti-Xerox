@@ -33,16 +33,18 @@ function ServiceDetailPage() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="relative h-64 sm:h-80 bg-gradient-to-r from-primary/80 to-accent/80 flex items-center justify-center overflow-hidden"
+        className="relative h-64 sm:h-80 flex items-center justify-center overflow-hidden"
       >
-        <div className="absolute inset-0 opacity-20 text-9xl flex items-center justify-center">
-          {service.icon}
-        </div>
-        <div className="relative z-10 text-center">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${service.image})` }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-black/80" />
+        <div className="relative z-10 text-center px-4">
           <motion.h1
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.2,duration: 0.8 }}
+            transition={{ delay: 0.2, duration: 0.8 }}
             className="text-4xl sm:text-5xl font-bold text-black mb-2"
           >
             {service.title}
@@ -98,7 +100,7 @@ function ServiceDetailPage() {
           <div className="p-6 bg-blue-500/10 border-2 border-blue-500/30 rounded-lg">
             <h3 className="text-sm font-bold text-blue-600 mb-2">GET STARTED</h3>
             <a
-              href="tel:+919999999999"
+              href="tel:+918691917227"
               className="text-2xl font-bold text-black hover:text-blue-600 transition"
             >
               Call Now
@@ -118,9 +120,8 @@ function ServiceDetailPage() {
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab as any)}
-                className={`pb-4 px-4 font-bold text-lg transition relative ${
-                  activeTab === tab ? 'text-primary' : 'text-gray-600 hover:text-black'
-                }`}
+                className={`pb-4 px-4 font-bold text-lg transition relative ${activeTab === tab ? 'text-primary' : 'text-gray-600 hover:text-black'
+                  }`}
               >
                 {tab === 'documents' ? 'Required Documents' : 'FAQ'}
                 {activeTab === tab && (
@@ -204,13 +205,13 @@ function ServiceDetailPage() {
           <h3 className="text-2xl font-bold mb-4">Ready to get started?</h3>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919999999999"
+              href="tel:+918691917227"
               className="px-8 py-3 bg-primary text-black font-bold rounded-lg hover:bg-yellow-400 transition"
             >
               Call Now
             </a>
             <a
-              href="https://wa.me/919999999999"
+              href="https://wa.me/918691917227"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 bg-green-500 text-white font-bold rounded-lg hover:bg-green-600 transition"

@@ -51,10 +51,12 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center font-bold text-black group-hover:scale-110 transition">
-              T
-            </div>
-            <span className="font-bold text-xl text-black hidden sm:inline">TRUPTI XEROX</span>
+            <img
+              src="/logo.jpeg"
+              alt="Trupti Enterprises Logo"
+              className="h-14 w-auto object-contain group-hover:scale-105 transition rounded-lg"
+            />
+            <span className="font-bold text-xl text-black hidden sm:inline">TRUPTI ENTERPRISES</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -74,7 +76,7 @@ export default function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
             <motion.a
-              href="tel:+919999999999"
+              href="tel:+918691917227"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-6 py-2.5 bg-primary text-black font-bold rounded-lg hover:bg-yellow-400 transition duration-300 shadow-lg hover:shadow-xl"
@@ -115,7 +117,7 @@ export default function Navbar() {
                 </button>
               ))}
               <a
-                href="tel:+919999999999"
+                href="tel:+918691917227"
                 className="block w-full px-4 py-2 bg-primary text-black font-bold rounded-lg text-center transition"
                 onClick={() => setIsOpen(false)}
               >

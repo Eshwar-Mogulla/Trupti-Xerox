@@ -61,10 +61,15 @@ const ServicesGrid = () => {
                 className="h-full p-6 bg-white border-2 border-black/10 rounded-xl hover:border-primary/50 transition cursor-pointer group"
               >
                 <motion.div
-                  className="text-5xl mb-4"
-                  whileHover={{ scale: 1.2, rotate: 10 }}
+                  className="w-full h-48 mb-4 overflow-hidden rounded-lg"
                 >
-                  {service.icon}
+                  <motion.img
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-full object-cover"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ duration: 0.4 }}
+                  />
                 </motion.div>
 
                 <h3 className="text-xl font-bold mb-3 text-black group-hover:text-primary transition">
@@ -76,8 +81,8 @@ const ServicesGrid = () => {
                 </p>
 
                 <div className="flex items-center justify-between">
-                  <span className="text-xs bg-primary text-white px-3 py-1 rounded-full font-medium">
-                    {service.processingTime}
+                  <span className="text-xs bg-primary text-black px-3 py-1 rounded-full font-medium">
+                    {service.charges && service.charges.length > 0 ? service.charges[0] : 'Contact for pricing'}
                   </span>
                   <motion.span
                     whileHover={{ x: 5 }}

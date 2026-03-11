@@ -1,6 +1,6 @@
-# TRUPTI XEROX - Premium Document & Service Center
+# TRUPTI ENTERPRISES - Premium Document & Service Center
 
-A modern, high-performance React + Vite website for TRUPTI XEROX, featuring a comprehensive suite of services including document processing, government assistance, and professional solutions.
+A modern, high-performance React + Vite website for TRUPTI ENTERPRISES, featuring a comprehensive suite of services including document processing, government assistance, and professional solutions.
 
 ## Project Overview
 
@@ -154,7 +154,7 @@ npm run lint     # Run ESLint
 
 ## Contact Information
 
-- **Phone**: +91 9999 999 999
+- **Phone**: +91 86919 17227
 - **WhatsApp**: Available via website buttons
 - **Hours**: Mon-Sat 10 AM - 7 PM, Sun 12 PM - 6 PM
 - **Location**: City Center, Main Street
@@ -168,11 +168,11 @@ npm run lint     # Run ESLint
 
 ## 📄 License
 
-© 2026 TRUPTI XEROX. All rights reserved.
+© 2026 TRUPTI ENTERPRISES. All rights reserved.
 
 ## 🤝 Contributing
 
-This is an official TRUPTI XEROX website. For modifications or feature requests, please contact the development team.
+This is an official TRUPTI ENTERPRISES website. For modifications or feature requests, please contact the development team.
 
 ---
 

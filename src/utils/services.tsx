@@ -37,6 +37,7 @@ export const services: Service[] = [
     fullDesc:
       'Professional xeroxing services with high-quality output. We offer both black & white and color copying with competitive rates and quick turnaround times.',
     icon: <FiCopy />,
+    image: '/xerox.webp',
     processingTime: '5-10 minutes',
     charges: ['₹1-2 per B&W page', '₹5-10 per color page'],
     documents: ['Original document to be photocopied'],
@@ -58,6 +59,7 @@ export const services: Service[] = [
     fullDesc:
       'High-resolution color printing perfect for brochures, flyers, posters, and promotional materials. We use premium quality paper and inks.',
     icon: <FiPrinter />,
+    image: '/color-Xerox.webp',
     processingTime: '2-3 business days',
     charges: ['₹5-15 per print depending on size'],
     documents: ['Digital file (PDF, JPG, PNG)', 'Specifications and quantity needed'],
@@ -79,6 +81,7 @@ export const services: Service[] = [
     fullDesc:
       'Complete assistance with PAN card application including form filling, verification, and submission to Income Tax Department.',
     icon: <FiCreditCard />,
+    image: '/pan-card.webp',
     processingTime: '7-10 business days',
     charges: ['₹100-150 service fee'],
     documents: ['Aadhar card', 'Passport/Voter ID/Driving License', 'Address Proof', 'Photograph'],
@@ -100,6 +103,7 @@ export const services: Service[] = [
     fullDesc:
       'We assist with updating your Aadhar card information including address changes, demographic data updates, and corrections.',
     icon: <FiUser />,
+    image: '/Aadhar.png',
     processingTime: '5-7 business days',
     charges: ['₹50-100 service fee'],
     documents: ['Current Aadhar card', 'New address proof', 'Identification document'],
@@ -121,6 +125,7 @@ export const services: Service[] = [
     fullDesc:
       'Professional lamination service to protect your important documents. We offer various thicknesses and finishes - matte, glossy, and semi-gloss.',
     icon: <FiClipboard />,
+    image: '/lamination.jpg',
     processingTime: '15-30 minutes',
     charges: ['₹5-20 per document depending on size'],
     documents: ['Document or photo to be laminated'],
@@ -142,6 +147,7 @@ export const services: Service[] = [
     fullDesc:
       'Studio-quality passport photographs meeting international standards. We ensure proper size, background, and formatting per government requirements.',
     icon: <FiCamera />,
+    image: '/passport.jpg',
     processingTime: '10-15 minutes',
     charges: ['₹50-100 for 12 copies'],
     documents: ['Your presence for photo'],
@@ -163,6 +169,7 @@ export const services: Service[] = [
     fullDesc:
       'We help you with various banking services including account opening, document verification, and forms submission.',
     icon: <FiHome />,
+    image: '/Bank-services.jpg',
     processingTime: 'Varies',
     charges: ['₹50-200 depending on service'],
     documents: ['Identification and address proof', 'Bank-specific documents as required'],
@@ -184,6 +191,7 @@ export const services: Service[] = [
     fullDesc:
       'Fast and secure money transfer services for domestic and international transactions. Competitive rates with minimal processing time.',
     icon: <FiSend />,
+    image: '/money-tranfer.webp',
     processingTime: 'Real-time to 2 business days',
     charges: ['Varies by amount and destination'],
     documents: ['Sender ID proof', 'Recipient details', 'Purpose of transfer'],
@@ -205,6 +213,7 @@ export const services: Service[] = [
     fullDesc:
       'Complete assistance in drafting, notarization, and registration of rent agreements. Ensures legal compliance and protection for both parties.',
     icon: <FiFileText />,
+    image: '/rent-agreement.webp',
     processingTime: '3-5 business days',
     charges: ['₹500-1500 depending on complexity'],
     documents: ['Landlord and tenant ID proofs', 'Property documents', 'Address proof'],
@@ -226,6 +235,7 @@ export const services: Service[] = [
     fullDesc:
       'Assistance with E-Shram card registration for unorganized workers. Provides social security benefits and accident insurance.',
     icon: <FiUserCheck />,
+    image: 'E-shram-Card.webp',
     processingTime: '2-3 days',
     charges: ['₹50-100 service fee'],
     documents: ['Aadhar card', 'Bank account details', 'Mobile number'],
@@ -247,6 +257,7 @@ export const services: Service[] = [
     fullDesc:
       'Complete assistance with Ayushman Bharat - PM-JAY scheme registration. Provides free health insurance coverage up to ₹5 lakh.',
     icon: <FiHeart />,
+    image: 'ayushman-card.jpg',
     processingTime: '3-5 business days',
     charges: ['₹50-100 service fee'],
     documents: ['Aadhar card', 'Ration card or address proof', 'Family income certificate'],

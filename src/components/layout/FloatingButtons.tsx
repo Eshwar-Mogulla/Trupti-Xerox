@@ -7,19 +7,19 @@ export default function FloatingButtons() {
     {
       icon: <FiPhone />,
       label: 'Call',
-      link: 'tel:+919999999999',
+      link: 'tel:+918691917227',
       color: 'bg-accent',
     },
     {
       icon: <FaWhatsapp />,
       label: 'WhatsApp',
-      link: 'https://wa.me/919999999999',
+      link: 'https://wa.me/918691917227',
       color: 'bg-green-500',
     },
     {
       icon: <FiMapPin />,
       label: 'Directions',
-      link: '#',
+      link: 'https://www.google.com/maps/place/TRUPTI+ENTERPRISES/@19.1863664,73.0394328,712m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3be7bfa98d4a59c7:0x9c4b14930000000!8m2!3d19.1863664!4d73.0420077!16s%2Fg%2F11rdx438p8?entry=ttu&g_ep=EgoyMDI2MDMwNC4xIKXMDSoASAFQAw%3D%3D',
       color: 'bg-blue-500',
     },
   ]
@@ -46,7 +46,7 @@ export default function FloatingButtons() {
 
       {/* Desktop WhatsApp Floating Button */}
       <motion.a
-        href="https://wa.me/919999999999"
+        href="https://wa.me/918691917227"
         target="_blank"
         rel="noopener noreferrer"
         whileHover={{ scale: 1.1, rotate: 10 }}
@@ -61,7 +61,7 @@ export default function FloatingButtons() {
 
       {/* Desktop Call Floating Button */}
       <motion.a
-        href="tel:+919999999999"
+        href="tel:+918691917227"
         whileHover={{ scale: 1.1, rotate: -10 }}
         whileTap={{ scale: 0.95 }}
         initial={{ opacity: 0, scale: 0 }}
